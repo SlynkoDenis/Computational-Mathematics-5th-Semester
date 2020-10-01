@@ -70,6 +70,7 @@ int main() {
     for (size_t i = 1; i <= dim; ++i) {
         std::cout << "r" << i << " = " << gaussian_residual.at(i, 1) << std::endl;
     }
+    std::cout << "norm of the residal is: " << norm(gaussian_residual) << std::endl;
 
     std::cout << "Solution with Gauss-Seidel method is:" << std::endl;
     for (size_t i = 1; i <= dim; ++i) {
@@ -79,6 +80,7 @@ int main() {
     for (size_t i = 1; i <= dim; ++i) {
         std::cout << "r" << i << " = " << seidel_residual.at(i, 1) << std::endl;
     }
+    std::cout << "norm of the residal is: " << norm(seidel_residual) << std::endl;
 
     std::cout << "Condition number of the matrix A is " << mu << std::endl;
 

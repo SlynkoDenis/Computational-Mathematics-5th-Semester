@@ -454,6 +454,8 @@ T triangular_determinant(const Matrix<T>& obj) {
 }
 
 // TODO: move it to namespace
+// Current implementation evaluates norm as maximum of sums of
+// elements in rows taken with absolute value (so called norm 1)
 template <typename T>
 T norm(const Matrix<T>& A) {
     auto rows_number = A.get_rows_number();
