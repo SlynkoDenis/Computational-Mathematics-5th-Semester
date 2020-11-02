@@ -1,5 +1,4 @@
-/.idea/*
-/Slynko_Work2/.idea
-/Slynko_Work2/.vscode
-/Slynko_Work2/cmake-build-debug
-/Slynko_Work1/__pycache__
+**/__pycache__
+**/.idea
+**/.vscode
+**/cmake-build-debug
